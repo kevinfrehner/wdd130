@@ -1,1 +1,52 @@
-
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>WDD130 | HTML Form - User Poll</title>
+</head>
+<body>
+<header>
+    <h1>WDD 130 | Kevin Frehner | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class="form-item column2">
+            <label for="useremail">Email:</label>
+            <input type="text" id="useremail" name="useremail">
+            </div>
+            <div class="form-item">
+            <label for="browser-select">What is your favorite browser?:</label>
+            <select id="Browsers" name="Browsers">
+                <option value="Internet Explorer">Internet Explorer</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Google Chrome">Google Chrome</option>
+            </select>
+            </div>
+            <div class="form-item">
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="form-item">
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Bakersfield California, Rexburg Idaho, Henderson Nevada"></textarea>
+            </div>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+    <p>©2024 | HTML Form - User Poll Activity | Kevin Frehner</p>
+        </footer>
+    </body>
+</html>
