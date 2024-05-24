@@ -162,3 +162,25 @@ section {
 .history p {
     font-size: 1vw;
 }
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.employees {
+    display: flex;
+}
+
+.employees img {
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    background-color: var(--primary-color);
+    border: #F1FFC4;
+}
