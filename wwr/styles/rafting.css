@@ -5,7 +5,7 @@ body {
     max-width: 960px;
     padding: 20px;
     background-color:#ffffff;
-    color: #f33434;
+    color: #000;
 }
 
 :root {
@@ -73,6 +73,8 @@ footer{
     margin-top: 80px; 
     align-items: center;
 }
+
+
 .header {
     display: grid;
     grid-template-columns: 2fr auto 1fr; 
@@ -176,7 +178,7 @@ article {
 }
 
 p {
-    color: white;
+    color: #000;
     font-family: var(--paragraph-font); 
     text-align: left;
     vertical-align: middle;
@@ -315,6 +317,12 @@ button {
     border: #F1FFC4;
 }
 
+.employees h2 {
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+}
+    
 .trails {
     display: flex;
     flex: 300px;
@@ -326,7 +334,6 @@ button {
 
 .halfday {
     font-size: 1.2rem;
-    
 }
 
 .halfday img {
@@ -337,6 +344,7 @@ button {
 .halfday p {
     font-size: 1.5vw;
 }
+
 .fullday {
     font-size: 1.2rem;
 }
