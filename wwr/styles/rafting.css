@@ -9,9 +9,9 @@ body {
 }
 
 :root {
-    --primary-color: #0D3B66;
+    --primary-color: #EE964B;
     --secondary-color: #F4D35E;
-    --accent1-color: #EE964B;
+    --accent1-color: #0D3B66;
     --accent2-color: #F95738;
 
     --heading-font: 'Noto Sans' , sans-serif;
@@ -31,7 +31,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #0D3B66;
 }
 
 p {
@@ -79,7 +79,7 @@ footer{
     display: grid;
     grid-template-columns: 2fr auto 1fr; 
     align-items: center;
-    background-color: #0D3B66; 
+    background-color: #EE964B; 
     padding: 20px 0; 
     color: #fff; 
     margin-bottom: 80px; 
@@ -313,14 +313,15 @@ button {
     width: 200px;
     height: 200px;
     padding: 2px;
-    background-color: var(--primary-color);
-    border: #F1FFC4;
+    background-color: #0D3B66;
+    border: #0D3B66;
 }
 
 .employees h2 {
     width: 100%;
     font-size: 1.7rem;
     text-align: center;
+    color: #0D3B66;
 }
     
 .trails {
@@ -369,4 +370,29 @@ button {
 
 .twoday p {
     font-size: 1.5vw;
+}
+
+.grid {
+    display:grid;
+    grid-column: 1/13;
+    display: flex;
+    gap: 30px;
+    height:auto;
+    position: relative;
+    top: 60px;
+    width: 100%;
+   background-color: var(--primary-color);
+}
+
+.purpose {
+    border: .5px solid var(--primary-color);
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+.grid h2{
+    color: #0D3B66;
+}
+
+.homepage {
+font-size: 1.2rem;
 }
