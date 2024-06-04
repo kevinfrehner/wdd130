@@ -335,11 +335,13 @@ button {
 
 .halfday {
     font-size: 1.2rem;
+    
 }
 
 .halfday img {
     width: 270px;
     height: 200px;
+    
 }
 
 .halfday p {
@@ -395,4 +397,34 @@ button {
 
 .homepage {
 font-size: 1.2rem;
+}
+
+.contact {
+    text-align: center;
+}
+
+.chart {
+    display:flex;
+    justify-content: center;
+    padding: 100px;
+    position: relative;
+    top: 70px;
+    height: auto;
+    width: auto;
+}
+
+.chart, th, td {
+    color: #fff;
+    align-items: center;
+}
+
+th, td {
+    background-color: #0D3B66;
+    color: #ffffff;
+    padding: 20px;
+}
+
+th {
+    background-color: #0D3B66;
+    height: 40%;
 }
