@@ -345,7 +345,7 @@ button {
 }
 
 .halfday p {
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .fullday {
@@ -358,7 +358,7 @@ button {
 }
 
 .fullday p {
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .twoday {
@@ -371,7 +371,7 @@ button {
 }
 
 .twoday p {
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .grid {
